@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name – Resume</title>
+  <meta name="description" content="Resume of Your Name: role, skills, experience." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:," />
+  <meta property="og:title" content="Your Name – Resume" />
+  <meta property="og:description" content="Role • Skills • Experience" />
+  <meta property="og:type" content="website" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="header">
+      <h1>Your Name</h1>
+      <p class="subtitle">Role / Speciality • City, Country</p>
+      <p class="contact">
+        <a href="mailto:you@yourdomain.com">you@yourdomain.com</a> •
+        <a href="https://linkedin.com/in/yourhandle">LinkedIn</a> •
+        <a href="https://github.com/your-username">GitHub</a> •
+        <a href="resume.pdf" download>Download PDF</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <p>One crisp paragraph (2–4 sentences) that captures your focus, strengths, and the kind of roles you’re targeting.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="grid">
+        <li>Skill/Tech A</li><li>Skill/Tech B</li><li>Skill/Tech C</li>
+        <li>Domain X</li><li>Method Y</li><li>Tool Z</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <article class="job">
+        <div class="job-head">
+          <strong>Company Name</strong> — Role Title
+          <span class="right">Jan 2023 – Present · Remote</span>
+        </div>
+        <ul>
+          <li>Impact-first bullet with a number: “Increased X by 32%…”</li>
+          <li>What/How/Why: problem, action, measurable result.</li>
+          <li>Techs: A, B, C.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-head">
+          <strong>Previous Company</strong> — Role Title
+          <span class="right">2020 – 2022 · City</span>
+        </div>
+        <ul>
+          <li>Concise, outcome-oriented bullets.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>Degree</strong>, School — Year</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <p><strong>Project Name</strong> — one-line value statement. <a href="#">Repo</a> • <a href="#">Live</a></p>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="year"></span> Your Name</small>
+    </footer>
+  </main>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
